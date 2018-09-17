@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EC463_SW_Miniproj</string>
+    <string name="title_activity_login">LoginActivity</string>
 </resources>
