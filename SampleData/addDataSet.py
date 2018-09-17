@@ -3,8 +3,9 @@ Sample dataset for EC463 miniproject 1
 Created by Jeffrey Leong 9/16/2018
 
 Set up path variable after getting API key from Google console.
+Data is uploaded onto Google Cloud Datastore.
 
-Data is created to simulate temperature and humidity in a room.
+This script generates data to simulate temperature and humidity in a room.
 It is randomized using the random library.
 """
 
