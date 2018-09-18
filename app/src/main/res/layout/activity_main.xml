@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jleong.ec463_sw_miniproj.LoginActivity">
+    tools:context="com.example.jleong.ec463_sw_miniproj.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -20,18 +20,14 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include
-        android:id="@+id/include"
-        layout="@layout/content_login"
-        android:layout_width="198dp" />
+    <include layout="@layout/content_main" />
 
-    <com.google.android.gms.common.SignInButtongoogle.android.gms.common.Sig
-        android:id="@+id/sign_in_button"
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="bottom|center" />
-
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </android.support.design.widget.CoordinatorLayout>
-
